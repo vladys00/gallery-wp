@@ -25,6 +25,47 @@
   display: flex;
 }
 
+.header__desktop {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .header__mobile {
+    display: none;
+  }
+  .header__desktop {
+    display: flex;
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__desktop-logo a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+  }
+  .header__desktop-nav .header__desktop-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .header__desktop-nav .header__desktop-menu-item {
+    margin-left: 2rem;
+  }
+  .header__desktop-nav .header__desktop-menu-item:first-child {
+    margin-left: 0;
+  }
+  .header__desktop-nav .header__desktop-menu-item a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  .header__desktop-nav .header__desktop-menu-item a:hover {
+    color: #555;
+  }
+}
 body {
   padding: 0;
   margin: 0;

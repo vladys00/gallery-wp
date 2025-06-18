@@ -28,3 +28,57 @@ justify-content: space-between;
     }
 }
 
+.header__desktop {
+    display: none; // Hidden by default
+}
+
+// Media query for large screens
+@media screen and (min-width: 992px) {
+    .header__mobile {
+        display: none; // Hide mobile navigation on large screens
+    }
+    
+    .header__desktop {
+        display: flex;
+        padding: 1rem 2rem;
+        align-items: center;
+        justify-content: space-between;
+        
+        &-logo {
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                color: #000;
+            }
+        }
+        
+        &-nav {
+            .header__desktop-menu {
+                display: flex;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                
+                &-item {
+                    margin-left: 2rem;
+                    
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        color: #000;
+                        font-weight: 500;
+                        transition: color 0.3s ease;
+                        
+                        &:hover {
+                            color: #555;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

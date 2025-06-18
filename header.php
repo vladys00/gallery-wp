@@ -26,6 +26,24 @@
 
   <div class="header__desktop">
     <!-- Desktop-specific stuff here -->
+      <div class="header__desktop">
+    <div class="header__desktop-logo">
+      <a href="<?php echo get_home_url(); ?>" class="header__logo-link">GALLERY LOGO</a>
+    </div>
+    <nav class="header__desktop-nav">
+      <ul class="header__desktop-menu">
+        <li class="header__desktop-menu-item">
+          <a href="" class="header__desktop-menu-link">ABOUT</a>
+        </li>
+        <li class="header__desktop-menu-item">
+          <a href="" class="header__desktop-menu-link">CONTACT</a>
+        </li>
+        <li class="header__desktop-menu-item">
+          <a href="<?php echo get_home_url(); ?>" class="header__desktop-menu-link">HOME</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
   </div>
 </header>  
 
