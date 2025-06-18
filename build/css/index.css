@@ -1,106 +1,38 @@
-/* Base styles */
-.header {
-  background-color: #fff;
-  padding: 1rem;
-  position: relative;
-  z-index: 10;
-}
-
-.header__container {
+.header__mobile {
+  padding: 1rem 1.5rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+}
+.header__mobile button {
+  height: 100%;
+  all: unset;
+  cursor: pointer;
+}
+.header__mobile button .header__icon {
+  width: 20px;
+  height: 20px;
+}
+.header__mobile .header__nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  top: 0;
+  right: 0;
 }
 
-.header__brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.header__nav {
-  display: flex;
-}
-
-.nav__list {
-  display: flex;
-  gap: 1rem;
-  list-style: none;
+body {
   padding: 0;
   margin: 0;
 }
 
-.nav__link {
-  text-decoration: none;
-  color: #333;
+body.admin-bar .header__nav {
+  top: 32px;
 }
 
-/* Toggle button for mobile */
-.header__toggle {
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 24px;
-  height: 18px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.header__bar {
-  height: 3px;
-  width: 100%;
-  background-color: #333;
-  border-radius: 2px;
-}
-
-/* Mobile menu */
-.header__mobile-menu {
-  position: fixed;
-  top: 0;
-  right: -100%;
-  width: 250px;
-  height: 100%;
-  background-color: #fff;
-  transition: right 0.3s ease-in-out;
-  padding: 2rem;
-  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.header__mobile-menu--active {
-  right: 0;
-}
-
-.mobile-menu__list {
-  list-style: none;
-  padding: 0;
-}
-
-.mobile-menu__item {
-  margin-bottom: 1rem;
-}
-
-.mobile-menu__link {
-  text-decoration: none;
-  color: #333;
-  font-size: 1.2rem;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-  .header__nav {
-    display: none;
+@media screen and (max-width: 782px) {
+  body.admin-bar .header__nav {
+    top: 46px;
   }
-  .header__toggle {
-    display: flex;
-  }
-}
-.header__close {
-  background: none;
-  border: none;
-  font-size: 2rem;
-  position: absolute;
-  top: 4rem;
-  right: 1rem;
-  cursor: pointer;
-  color: #333;
 }

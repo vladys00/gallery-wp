@@ -1,1 +1,15 @@
 @import 'header';
+body{
+    padding: 0;
+    margin: 0;
+
+}
+body.admin-bar .header__nav {
+  top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+  body.admin-bar .header__nav {
+    top: 46px;
+  }
+}
