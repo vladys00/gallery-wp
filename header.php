@@ -17,7 +17,7 @@
         <img class="header__icon" src="<?php echo get_template_directory_uri(); ?>/assets/hamburger.png" alt="hamburger icon">
     </button>
     <nav class="header__nav">
-        <button>x</button>
+        <button class="header__nav-close">x</button>
         <a href="" class="header__nav-link">ABOUT</a>
         <a href="" class="header__nav-link">CONTACT</a>
         <a href="<?php echo get_home_url();?>" class="header__nav-link">HOME</a>

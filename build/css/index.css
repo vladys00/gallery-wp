@@ -21,6 +21,9 @@
   top: 0;
   right: 0;
 }
+.header__mobile .header__nav.active {
+  display: flex;
+}
 
 body {
   padding: 0;
