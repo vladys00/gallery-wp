@@ -1,4 +1,5 @@
 <footer class="footer">
+    <hr>
     <div class="footer__social">
         <p class="footer__title">Follow us</p>
         <ul class="footer__social-list">

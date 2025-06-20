@@ -1,5 +1,4 @@
 footer{
-    border-top: 1px solid black;
     padding: 1rem;
     .footer__social{
     p{
@@ -55,17 +54,23 @@ footer{
 
 @media (min-width: 951px) {
   footer{
+    padding: 25px;
     align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
     gap: .5rem;
-    gap: var(--gutter);
     justify-content: space-between;
     position: relative;
     .footer__links{
         gap:6rem;
+       
+    }
+    .footer__copyright{
+         p{
+            padding-right: 20px;
+        }
     }
   }
 }
