@@ -102,6 +102,18 @@
     color: #555;
   }
 }
+footer {
+  border-top: 1px solid black;
+  padding: 1rem;
+}
+footer .footer__social ul {
+  display: flex;
+  gap: 1.2rem;
+}
+footer .footer__links {
+  display: flex;
+}
+
 @font-face {
   font-family: "akkurat";
   src: url(/fonts/Akkurat.ttf?f370feda377f23d8fb619f8a54f9ea1d) format("truetype");
