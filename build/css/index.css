@@ -102,7 +102,14 @@
     color: #555;
   }
 }
+@font-face {
+  font-family: "akkurat";
+  src: url(/fonts/Akkurat.ttf?f370feda377f23d8fb619f8a54f9ea1d) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
+  font-family: "akkurat", Arial, sans-serif;
   padding: 0;
   margin: 0;
 }

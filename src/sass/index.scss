@@ -1,5 +1,12 @@
 @import 'header';
+@font-face{
+  font-family:'akkurat';
+  src: url('../../assets/fonts/Akkurat.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body{
+    font-family: 'akkurat', Arial, sans-serif;
     padding: 0;
     margin: 0;
 
