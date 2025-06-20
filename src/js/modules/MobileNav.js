@@ -16,10 +16,12 @@ class MobileNav {
     // 3. methods
     openMobileNav(){
         this.navigationMenu.addClass('active');
+        this.closeButton.removeClass('rotate');
     
     }
     closeMobileNav(){
         this.navigationMenu.removeClass('active');
+        this.closeButton.addClass('rotate');
     }
 }
 

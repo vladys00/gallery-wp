@@ -10772,11 +10772,13 @@ var MobileNav = /*#__PURE__*/function () {
     key: "openMobileNav",
     value: function openMobileNav() {
       this.navigationMenu.addClass('active');
+      this.closeButton.removeClass('rotate');
     }
   }, {
     key: "closeMobileNav",
     value: function closeMobileNav() {
       this.navigationMenu.removeClass('active');
+      this.closeButton.addClass('rotate');
     }
   }]);
 }();
