@@ -10786,6 +10786,19 @@ module.exports = MobileNav;
 
 /***/ }),
 
+/***/ "./src/sass/exhibition.scss":
+/*!**********************************!*\
+  !*** ./src/sass/exhibition.scss ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./src/sass/index.scss":
 /*!*****************************!*\
   !*** ./src/sass/index.scss ***!
@@ -10886,6 +10899,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/index": 0,
+/******/ 			"css/exhibition": 0,
 /******/ 			"css/index": 0
 /******/ 		};
 /******/ 		
@@ -10936,8 +10950,9 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/index"], () => (__webpack_require__("./src/js/index.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/index"], () => (__webpack_require__("./src/sass/index.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/exhibition","css/index"], () => (__webpack_require__("./src/js/index.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/exhibition","css/index"], () => (__webpack_require__("./src/sass/index.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/exhibition","css/index"], () => (__webpack_require__("./src/sass/exhibition.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
