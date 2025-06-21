@@ -44,7 +44,7 @@
   transition: transform 1s ease;
 }
 .header__mobile .header__nav .header__nav-top .header__nav-close.rotate svg {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
   transition: transform 1s ease;
 }
 .header__mobile .header__nav .header__nav-navigation {

@@ -45,7 +45,7 @@ justify-content: space-between;
             }
             .header__nav-close.rotate{
                 svg{
-                    transform: rotate(180deg);
+                    transform: rotate(360deg);
                     transition: transform 1s ease;
                 }
             }
