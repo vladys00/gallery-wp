@@ -2,13 +2,21 @@
 get_header();
 ?>
 <main>
-    <img src="" alt="">
+    <?php
+if (has_post_thumbnail()) {
+    $thumb_url = get_the_post_thumbnail_url(get_the_ID(), 'large'); // or 'medium', 'full', etc.
+    echo '<img src="' . esc_url($thumb_url) . '" alt="' . esc_attr(get_the_title()) . '" class="my-custom-thumbnail">';
+}
+?>
     <header>
         <h1>
             <?php the_title();?> 
         </h1>
         <div>
-            <p></p> | <span></span>
+            <p><?php echo get_field('start_date') ?>-<?php echo get_field('end_date') ?></p> | <span><?php echo get_field('location') ?></span>
+        </div>
+        <div>
+            <p><?php echo get_field('opening_info') ?></p>
         </div>
     </header>
     <section>
