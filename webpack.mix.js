@@ -11,4 +11,6 @@ mix
 .sass('src/sass/index.scss', 'css')
 .sass('src/sass/exhibition.scss', 'css')
 .sass('src/sass/archive-exhibition.scss', 'css')
+.sass('src/sass/news.scss', 'css')
+.sass('src/sass/news-archive.scss', 'css')
 .sass('src/sass/front-page.scss', 'css')

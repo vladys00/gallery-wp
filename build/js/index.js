@@ -10836,6 +10836,32 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
 
+/***/ }),
+
+/***/ "./src/sass/news-archive.scss":
+/*!************************************!*\
+  !*** ./src/sass/news-archive.scss ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./src/sass/news.scss":
+/*!****************************!*\
+  !*** ./src/sass/news.scss ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
 /***/ })
 
 /******/ 	});
@@ -10925,10 +10951,12 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/index": 0,
-/******/ 			"css/front-page": 0,
+/******/ 			"css/news-archive": 0,
+/******/ 			"css/news": 0,
 /******/ 			"css/archive-exhibition": 0,
 /******/ 			"css/exhibition": 0,
-/******/ 			"css/index": 0
+/******/ 			"css/index": 0,
+/******/ 			"css/front-page": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -10978,11 +11006,13 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/front-page","css/archive-exhibition","css/exhibition","css/index"], () => (__webpack_require__("./src/js/index.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/front-page","css/archive-exhibition","css/exhibition","css/index"], () => (__webpack_require__("./src/sass/index.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/front-page","css/archive-exhibition","css/exhibition","css/index"], () => (__webpack_require__("./src/sass/exhibition.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/front-page","css/archive-exhibition","css/exhibition","css/index"], () => (__webpack_require__("./src/sass/archive-exhibition.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/front-page","css/archive-exhibition","css/exhibition","css/index"], () => (__webpack_require__("./src/sass/front-page.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/js/index.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/index.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/exhibition.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/archive-exhibition.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/news.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/news-archive.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/front-page.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

@@ -2,8 +2,10 @@
     "/js/index.js": "/js/index.js",
     "/js/flickity-init.js": "/js/flickity-init.js",
     "/js/flickity.pkgd.js": "/js/flickity.pkgd.js",
-    "/css/front-page.css": "/css/front-page.css",
+    "/css/news-archive.css": "/css/news-archive.css",
+    "/css/news.css": "/css/news.css",
     "/css/archive-exhibition.css": "/css/archive-exhibition.css",
     "/css/exhibition.css": "/css/exhibition.css",
-    "/css/index.css": "/css/index.css"
+    "/css/index.css": "/css/index.css",
+    "/css/front-page.css": "/css/front-page.css"
 }

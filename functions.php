@@ -7,6 +7,12 @@ function gallery_assets() {
     if (is_singular('exhibition')){
         wp_enqueue_style('mytheme-exhibition-style', get_template_directory_uri() . '/build/css/exhibition.css', [], null);
     }
+     if (is_post_type_archive('news')){
+        wp_enqueue_style('archive-news-style', get_template_directory_uri() . '/build/css/news-archive.css', [], null);
+    }
+    if (is_singular('news')){
+        wp_enqueue_style('news-style', get_template_directory_uri() . '/build/css/news.css', [], null);
+    }
     if (is_front_page()){
         wp_enqueue_style('front-page-style', get_template_directory_uri() . '/build/css/front-page.css', [], null);
         wp_enqueue_style('flicky-css', get_template_directory_uri(). '/assets/flickity/flickity.css');
