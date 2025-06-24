@@ -2,7 +2,6 @@
 get_header();
 ?>
 <div class="front-container">
-    <h1>This is the front page</h1>
     <!-- <div class="main-carousel">
         <div class="carousel-cell">Image 1</div>
         <div class="carousel-cell">image 2</div>
@@ -32,8 +31,8 @@ get_header();
                     <div>
                         <span><?php echo get_field('location') ?></span>
                         <h2><?php the_title();  ?></h2>
-                        <p><?php echo get_field('start_date') ?>-<?php echo get_field('end_date') ?></p>
-                       <a href="">Learn more</a>
+                        <p><?php echo get_field('start_date') ?> - <?php echo get_field('end_date') ?></p>
+                        <a href="<?php echo get_permalink(get_the_ID()); ?>">Learn more</a>
                     </div>
                 </div>
             </div>
