@@ -9,6 +9,10 @@ function gallery_assets() {
     }
     if (is_front_page()){
         wp_enqueue_style('front-page-style', get_template_directory_uri() . '/build/css/front-page.css', [], null);
+        wp_enqueue_style('flicky-css', get_template_directory_uri(). '/assets/flickity/flickity.css');
+        wp_enqueue_script('flicky-js', get_template_directory_uri(). '/assets/flickity/flickity.pkgd.js', ['jquery'], null, true);
+        wp_enqueue_script('flicky-init-js', get_template_directory_uri(). '/assets/flickity/flickity-init.js', ['jquery'], null, true);
+
     }
     
     wp_enqueue_style('mytheme-style', get_template_directory_uri() . '/build/css/index.css', [], null);

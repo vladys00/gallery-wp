@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "dev": "mix",
-     "watch": "mix watch",
+    "dev": "mix",
+    "watch": "mix watch",
     "prod": "mix --production"
   },
   "keywords": [],
@@ -20,6 +20,7 @@
     "sass-loader": "^12.6.0"
   },
   "dependencies": {
+    "flickity": "^3.0.0",
     "jquery": "^3.7.1"
   }
 }
