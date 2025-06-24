@@ -2,12 +2,15 @@
 get_header();
 ?>
 <main>
-    <?php
-if (has_post_thumbnail()) {
-    $thumb_url = get_the_post_thumbnail_url(get_the_ID(), 'large'); // or 'medium', 'full', etc.
-    echo '<img src="' . esc_url($thumb_url) . '" alt="' . esc_attr(get_the_title()) . '" class="my-custom-thumbnail">';
-}
-?>
+    <div class="image-container">
+        <?php
+            if (has_post_thumbnail()) {
+            $thumb_url = get_the_post_thumbnail_url(get_the_ID(), 'large'); // or 'medium', 'full', etc.
+            echo '<img src="' . esc_url($thumb_url) . '" alt="' . esc_attr(get_the_title()) . '" class="my-custom-thumbnail">';
+            }
+        ?>
+    </div>
+ 
     <header>
         <h1>
             <?php the_title();?> 

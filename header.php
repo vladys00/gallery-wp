@@ -11,7 +11,7 @@
 <header class="header">
   <div class="header__mobile">
     <div class="header__logo">
-        <a href="" class="header__logo-link">GALLERY LOGO</a>
+        <a href="<?php echo get_home_url(); ?>" class="header__logo-link">GALLERY LOGO</a>
     </div>
     <button class="header__toggle">
         <svg viewBox="0 0 24 24" width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 7L4 7" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path> <path d="M20 12L4 12" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path> <path d="M20 17L4 17" stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
