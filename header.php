@@ -37,7 +37,7 @@
     <nav class="header__desktop-nav">
       <ul class="header__desktop-menu">
         <li class="header__desktop-menu-item">
-          <a href="" class="header__desktop-menu-link">Exhibitions</a>
+          <a href="<?php echo get_post_type_archive_link('exhibition'); ?>" class="header__desktop-menu-link">Exhibitions</a>
         </li>
         <li class="header__desktop-menu-item">
           <a href="" class="header__desktop-menu-link">News</a>
