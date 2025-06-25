@@ -1,9 +1,10 @@
+// Carousel styles
 .carousel-cell {
-  width: 100%; /* full width */
+  width: 100%; 
   margin-right: 10px;
 }
 .main-carousel{
-      height: 90vh;  
+      height: fit-content;  
     }
 .carousel-container--image{
     height: 350px;
@@ -44,6 +45,9 @@
 }
 
 @media screen and (min-width: 550px) {
+    .main-carousel{
+        height: 90vh;
+    }
     
     .carousel-cell{
         height: 100%;
@@ -68,4 +72,29 @@
             }
         }
 }
+}
+
+// Exhibition grid styles
+.exhibitions-container{
+    margin-top: 2rem;
+    div:first-of-type{
+        padding:0 1rem ;
+    }
+    .exhibitions-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, min(450px));
+        .exhibition-card{
+            padding: 1rem;
+            .image-container{
+                padding: 0;
+                img{
+                    height: 360px;
+                    width:100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+        }
+
+    }
 }

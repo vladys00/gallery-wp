@@ -1,10 +1,11 @@
 .carousel-cell {
-  width: 100%; /* full width */
+  width: 100%;
   margin-right: 10px;
 }
 
 .main-carousel {
-  height: 90vh;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .carousel-container--image {
@@ -49,6 +50,9 @@
 }
 
 @media screen and (min-width: 550px) {
+  .main-carousel {
+    height: 90vh;
+  }
   .carousel-cell {
     height: 100%;
   }
@@ -72,4 +76,28 @@
   .carousel-container .carousel-container--banner div {
     padding: 2rem 2rem 2.5rem 2rem;
   }
+}
+.exhibitions-container {
+  margin-top: 2rem;
+}
+.exhibitions-container div:first-of-type {
+  padding: 0 1rem;
+}
+.exhibitions-container .exhibitions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 450px);
+}
+.exhibitions-container .exhibitions-grid .exhibition-card {
+  padding: 1rem;
+}
+.exhibitions-container .exhibitions-grid .exhibition-card .image-container {
+  padding: 0;
+}
+.exhibitions-container .exhibitions-grid .exhibition-card .image-container img {
+  height: 360px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
