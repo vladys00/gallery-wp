@@ -1,13 +1,23 @@
 <?php
  get_header();
 ?>
+
 <div class="container">
-    <?php
-        while (have_posts()) {
-            the_post();
-            the_title('<h2><a href="'. get_permalink().'">','</a></h2>');
-        }
-     ?>
+    <div class="filter">
+        <p>Sections</p>
+    </div>
+    <div class="news-grid">
+              <?php
+                while (have_posts()) {
+                the_post();?>
+                <div class="news-grid__card">
+                    <img src="<?= get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>" alt="Thumbnail">
+                    <p><?php echo get_field('news_type'); ?></p>
+                    <h2><a href=""><?php the_title(); ?></a></h2>
+                    <p><?php echo get_field('description'); ?></p>
+                </div>
+            <?php } ?>
+    </div>
 </div>
 <?php
  get_footer();
