@@ -1,18 +1,27 @@
 .container{
-    padding: 1rem;
+    padding: 2rem;
     .filter{
         p{
             font-size: 18px;
         }
     }
     .news-grid{
-    display:grid ;
-    grid-template-columns:100%;
-    row-gap:35px;
+    column-count: 1;
+    column-gap: 3rem;
+    @media (min-width: 600px) {
+    column-count: 2;
+    }
+    @media (min-width: 900px) {
+        column-count: 3;
+    }
     .news-grid__card-link{
-        display: block;
+        display: inline-block;
+        break-inside: avoid;
+        width: 100%;
+        margin-bottom: 3rem;
         text-decoration: none;
         color: black;
+        height: fit-content;
     }
     .news-grid__card{
         
@@ -40,8 +49,6 @@
 }
 }
 @media screen  and (min-width: 768px) {
-    .news-grid{
-        grid-template-columns: repeat(2, 1fr);
-    }
+   
 }
 
