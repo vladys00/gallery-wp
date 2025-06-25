@@ -1,10 +1,18 @@
 .container {
   padding: 1rem;
 }
+.container .filter p {
+  font-size: 18px;
+}
 .container .news-grid {
   display: grid;
   grid-template-columns: 100%;
   row-gap: 35px;
+}
+.container .news-grid .news-grid__card-link {
+  display: block;
+  text-decoration: none;
+  color: black;
 }
 .container .news-grid .news-grid__card img {
   width: 100%;
@@ -18,10 +26,6 @@
 .container .news-grid .news-grid__card h2 {
   margin: 10px 0 0 0;
   font-size: 21px;
-}
-.container .news-grid .news-grid__card h2 a {
-  text-decoration: none;
-  color: black;
 }
 .container .news-grid .news-grid__card .card-description {
   margin: 10px 0 0 0;
