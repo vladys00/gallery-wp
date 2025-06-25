@@ -12,9 +12,9 @@
                 the_post();?>
                 <div class="news-grid__card">
                     <img src="<?= get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>" alt="Thumbnail">
-                    <p><?php echo get_field('news_type'); ?></p>
+                    <p class="card-type"><?php echo get_field('news_type'); ?></p>
                     <h2><a href=""><?php the_title(); ?></a></h2>
-                    <p><?php echo get_field('description'); ?></p>
+                    <p class="card-description"><?php echo get_field('description'); ?></p>
                 </div>
             <?php } ?>
     </div>

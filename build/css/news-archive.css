@@ -4,12 +4,28 @@
 .container .news-grid {
   display: grid;
   grid-template-columns: 100%;
-  row-gap: 20px;
+  row-gap: 35px;
 }
 .container .news-grid .news-grid__card img {
   width: 100%;
   -o-object-fit: fill;
      object-fit: fill;
+}
+.container .news-grid .news-grid__card .card-type {
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+.container .news-grid .news-grid__card h2 {
+  margin: 10px 0 0 0;
+  font-size: 21px;
+}
+.container .news-grid .news-grid__card h2 a {
+  text-decoration: none;
+  color: black;
+}
+.container .news-grid .news-grid__card .card-description {
+  margin: 10px 0 0 0;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 768px) {

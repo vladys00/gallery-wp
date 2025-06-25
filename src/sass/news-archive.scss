@@ -3,12 +3,28 @@
     .news-grid{
     display:grid ;
     grid-template-columns:100%;
-    row-gap:20px;
+    row-gap:35px;
 
     .news-grid__card{
         img{
             width: 100%;
             object-fit: fill;
+        }
+        .card-type{
+            font-size: 14px;
+            margin:10px 0 0 0;
+        }
+        h2{
+            margin:10px 0 0 0;
+            font-size: 21px;
+            a {
+                text-decoration:none;
+                color: black;
+            }
+        }
+        .card-description{
+            margin:10px 0 0 0;
+            font-size: 14px;
         }
     }
 }
