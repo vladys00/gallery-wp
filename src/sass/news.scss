@@ -16,9 +16,10 @@ main {
         padding: 1rem 1rem 1rem 12rem;
         gap: 2rem;
         .image-container{
+            width: fit-content;
             img{
-                height: 500px;
-                width: auto;
+                height: auto;
+                width: 303px;
             }
         }
         .text-container {

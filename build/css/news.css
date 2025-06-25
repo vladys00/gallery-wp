@@ -17,9 +17,13 @@ main .image-container img {
     padding: 1rem 1rem 1rem 12rem;
     gap: 2rem;
   }
+  main .image-container {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
   main .image-container img {
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 303px;
   }
   main .text-container {
     padding: 0 4rem 0 2rem;
