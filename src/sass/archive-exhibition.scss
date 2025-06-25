@@ -1,3 +1,46 @@
 .container{
     padding:1rem;
+    .filter{
+        font-size: 18px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 3rem;
+        .exhibition-grid__card-link{
+            color: black;
+            all: unset;
+            cursor: pointer;
+
+            div{
+                img{
+                    width: 100%;
+                    height: 250px;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 792px) {
+    .container{
+        padding: 2rem;
+        display: flex;
+        .filter{
+            width:15%;
+            
+            p{
+                margin:0;
+                border-top: .0625rem solid #e1e1e1;
+                width: 80%;
+                padding-top: 20px;
+            }
+        }
+        .grid{
+            width: 85%;
+        }
+    }
 }
