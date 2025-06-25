@@ -10,17 +10,12 @@ get_header();
             }
         ?>
     </div>
- 
+    <div>
     <header>
+        <p>News | <?php echo get_field('news_type') ?></p>
         <h1>
             <?php the_title();?> 
         </h1>
-        <div>
-            <p><?php echo get_field('start_date') ?>-<?php echo get_field('end_date') ?></p> | <span><?php echo get_field('location') ?></span>
-        </div>
-        <div>
-            <p><?php echo get_field('opening_info') ?></p>
-        </div>
     </header>
     <section>
         <div>
@@ -34,7 +29,9 @@ get_header();
                 }
             ?>
         </div>
-    </section>    
+    </section> 
+    </div>
+     
 </main>
 <?php
  get_footer();
