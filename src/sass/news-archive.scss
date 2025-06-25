@@ -3,6 +3,9 @@
     .filter{
         p{
             font-size: 18px;
+            svg {
+                display: none;
+            }
         }
     }
     .news-grid{
@@ -60,6 +63,7 @@
                 display: flex;
                 align-items: center;
                 svg{
+                    display: block;
                     margin-left: 10px;
                 }
             }

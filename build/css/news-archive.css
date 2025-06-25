@@ -4,6 +4,9 @@
 .container .filter p {
   font-size: 18px;
 }
+.container .filter p svg {
+  display: none;
+}
 .container .news-grid {
   -moz-column-count: 1;
        column-count: 1;
@@ -66,6 +69,7 @@
     align-items: center;
   }
   .container .filter p svg {
+    display: block;
     margin-left: 10px;
   }
 }
