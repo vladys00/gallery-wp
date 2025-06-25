@@ -10,7 +10,7 @@ get_header();
             }
         ?>
     </div>
-    <div>
+    <div class="text-container">
     <header>
         <p>News | <?php echo get_field('news_type') ?></p>
         <h1>

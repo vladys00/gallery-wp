@@ -9,3 +9,23 @@ main {
         }
     }
 }
+
+@media screen and (min-width: 800px) {
+    main {
+        display: flex;
+        padding: 1rem 1rem 1rem 12rem;
+        gap: 2rem;
+        .image-container{
+            img{
+                height: 500px;
+                width: auto;
+            }
+        }
+        .text-container {
+            padding: 0 4rem 0 2rem;
+            p:first-of-type{
+                margin: 0;
+            }
+        }
+    }
+}

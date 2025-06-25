@@ -10,3 +10,21 @@ main .image-container img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+@media screen and (min-width: 800px) {
+  main {
+    display: flex;
+    padding: 1rem 1rem 1rem 12rem;
+    gap: 2rem;
+  }
+  main .image-container img {
+    height: 500px;
+    width: auto;
+  }
+  main .text-container {
+    padding: 0 4rem 0 2rem;
+  }
+  main .text-container p:first-of-type {
+    margin: 0;
+  }
+}
