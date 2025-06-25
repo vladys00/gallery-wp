@@ -48,7 +48,23 @@
     }
 }
 }
-@media screen  and (min-width: 768px) {
+@media screen  and (min-width: 792px) {
+    .container{
+        display: flex;
+        .news-grid{
+            width: 85%;
+        }
+        .filter{
+            width: 15%;
+            p{
+                display: flex;
+                align-items: center;
+                svg{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
    
 }
 

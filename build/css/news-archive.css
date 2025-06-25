@@ -50,3 +50,22 @@
   margin: 10px 0 0 0;
   font-size: 14px;
 }
+
+@media screen and (min-width: 792px) {
+  .container {
+    display: flex;
+  }
+  .container .news-grid {
+    width: 85%;
+  }
+  .container .filter {
+    width: 15%;
+  }
+  .container .filter p {
+    display: flex;
+    align-items: center;
+  }
+  .container .filter p svg {
+    margin-left: 10px;
+  }
+}
