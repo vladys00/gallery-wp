@@ -19,6 +19,8 @@
   text-decoration: none;
   font-size: 20px;
   color: black;
+  padding: 5px;
+  border: 2px solid black;
 }
 .header__mobile .header__nav {
   display: flex;
@@ -78,6 +80,10 @@
     padding: 1rem 2rem;
     align-items: center;
     justify-content: space-between;
+  }
+  .header__desktop .header__desktop-logo {
+    padding: 5px;
+    border: 2px solid black;
   }
   .header__desktop-logo a {
     text-decoration: none;

@@ -71,7 +71,7 @@
     }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 780px) {
     .main-carousel{
         height: 90vh;
     }
@@ -103,11 +103,10 @@
     .exhibitions-container{
           .exhibitions-grid {
             flex-direction: row;
-            justify-content: space-around;
             .exhibition-card{
                 flex:1 1 350px;
                 min-width: 280px;
-                max-width: 350px;
+                max-width: 650px;
             }
         }
     }
