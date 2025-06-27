@@ -1,3 +1,8 @@
+:root {
+  --edge: 1rem;       /* default edge padding */
+  --indent: 0rem;     /* will grow on big screens */
+}
+
 .image-container{
     width:100%;
     img{
@@ -9,7 +14,9 @@
 }
 
 .text-container{
-    padding: 1rem;
+    margin-top:3rem;
+    padding-left: calc(var(--edge) + var(--indent));
+    padding-right: calc(var(--edge) + var(--indent));
     header{
         margin-bottom: 3rem;
         h1{
@@ -29,4 +36,24 @@
     }
     
 
+}
+
+@media screen and (min-width: 792px) {
+    :root {
+        --indent:6rem;
+    }
+    .text-container{
+        header{
+        h1{
+            font-size: 36px;
+        }
+    }
+    }
+    
+}
+
+@media screen and (min-width: 1250px) {
+    :root {
+        --indent:15rem;
+    }
 }

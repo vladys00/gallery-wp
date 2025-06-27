@@ -49,6 +49,33 @@
   font-size: 20px;
 }
 
+.exhibitions-container {
+  margin-top: 2rem;
+}
+.exhibitions-container div:first-of-type {
+  padding: 0 1rem;
+}
+.exhibitions-container .exhibitions-grid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.exhibitions-container .exhibitions-grid .exhibition-card {
+  min-width: 250px;
+  padding: 1rem;
+}
+.exhibitions-container .exhibitions-grid .exhibition-card .image-container {
+  padding: 0;
+}
+.exhibitions-container .exhibitions-grid .exhibition-card .image-container img {
+  height: 360px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
 @media screen and (min-width: 550px) {
   .main-carousel {
     height: 90vh;
@@ -76,28 +103,13 @@
   .carousel-container .carousel-container--banner div {
     padding: 2rem 2rem 2.5rem 2rem;
   }
-}
-.exhibitions-container {
-  margin-top: 2rem;
-}
-.exhibitions-container div:first-of-type {
-  padding: 0 1rem;
-}
-.exhibitions-container .exhibitions-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 450px);
-}
-.exhibitions-container .exhibitions-grid .exhibition-card {
-  padding: 1rem;
-}
-.exhibitions-container .exhibitions-grid .exhibition-card .image-container {
-  padding: 0;
-}
-.exhibitions-container .exhibitions-grid .exhibition-card .image-container img {
-  height: 360px;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
+  .exhibitions-container .exhibitions-grid {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .exhibitions-container .exhibitions-grid .exhibition-card {
+    flex: 1 1 350px;
+    min-width: 280px;
+    max-width: 350px;
+  }
 }
