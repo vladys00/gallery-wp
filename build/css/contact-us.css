@@ -1,0 +1,9 @@
+.contact-form-wrapper {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form-wrapper form {
+  width: 600px;
+}

@@ -10799,6 +10799,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/sass/contact-us.scss":
+/*!**********************************!*\
+  !*** ./src/sass/contact-us.scss ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./src/sass/exhibition.scss":
 /*!**********************************!*\
   !*** ./src/sass/exhibition.scss ***!
@@ -10956,6 +10969,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			"css/archive-exhibition": 0,
 /******/ 			"css/exhibition": 0,
 /******/ 			"css/index": 0,
+/******/ 			"css/contact-us": 0,
 /******/ 			"css/front-page": 0
 /******/ 		};
 /******/ 		
@@ -11006,13 +11020,14 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/js/index.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/index.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/exhibition.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/archive-exhibition.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/news.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/news-archive.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/front-page"], () => (__webpack_require__("./src/sass/front-page.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/contact-us","css/front-page"], () => (__webpack_require__("./src/js/index.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/contact-us","css/front-page"], () => (__webpack_require__("./src/sass/index.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/contact-us","css/front-page"], () => (__webpack_require__("./src/sass/exhibition.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/contact-us","css/front-page"], () => (__webpack_require__("./src/sass/archive-exhibition.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/contact-us","css/front-page"], () => (__webpack_require__("./src/sass/news.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/contact-us","css/front-page"], () => (__webpack_require__("./src/sass/news-archive.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/contact-us","css/front-page"], () => (__webpack_require__("./src/sass/front-page.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/news-archive","css/news","css/archive-exhibition","css/exhibition","css/index","css/contact-us","css/front-page"], () => (__webpack_require__("./src/sass/contact-us.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

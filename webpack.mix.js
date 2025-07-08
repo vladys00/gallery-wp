@@ -14,3 +14,4 @@ mix
 .sass('src/sass/news.scss', 'css')
 .sass('src/sass/news-archive.scss', 'css')
 .sass('src/sass/front-page.scss', 'css')
+.sass('src/sass/contact-us.scss', 'css')

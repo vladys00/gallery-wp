@@ -24,6 +24,7 @@
       <ul class="header__nav-navigation">
         <li><a href="<?php echo get_post_type_archive_link('exhibition'); ?>">Exhibitions</a></li>
         <li><a href="<?php echo get_post_type_archive_link('news'); ?>">News</a></li>
+        <li><a href="<?php echo get_permalink( get_page_by_path( 'contact-us' ) ); ?>">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -42,6 +43,7 @@
         <li class="header__desktop-menu-item">
           <a href="<?php echo get_post_type_archive_link('news'); ?>" class="header__desktop-menu-link">News</a>
         </li>
+        <li class="header__desktop-menu-item"><a class="header__desktop-menu-link" href="<?php echo get_permalink( get_page_by_path( 'contact-us' ) ); ?>">Contact</a></li>
 
       </ul>
     </nav>
